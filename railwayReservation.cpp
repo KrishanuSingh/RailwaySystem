@@ -678,7 +678,7 @@ void manage()
 				break;
 			}
 		}while(ch<=3);
-cout<<"js";
+cout<<"jJJs";
 }
 
 

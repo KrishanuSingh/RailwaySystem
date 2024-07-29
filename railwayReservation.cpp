@@ -678,6 +678,7 @@ void manage()
 				break;
 			}
 		}while(ch<=3);
-cout<<"jas";
+cout<<"js";
 }
+
 

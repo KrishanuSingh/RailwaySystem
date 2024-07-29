@@ -679,6 +679,7 @@ void manage()
 			}
 		}while(ch<=3);
 cout<<"jJJs";
+cout<<"h";
 }
 
 

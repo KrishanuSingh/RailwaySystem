@@ -678,6 +678,6 @@ void manage()
 				break;
 			}
 		}while(ch<=3);
-cout<<"jahs";
+cout<<"jas";
 }
 

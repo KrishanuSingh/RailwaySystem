@@ -119,7 +119,7 @@ class reser
 		cout<<"1.Military\n2.Senior citizen\n";
 		cout<<"3.Children below 5 yrs\n4.None\n";
 		std::cin>>con;
-		cout<<"…………END OF GETTING DETAILS…………\n";
+		cout<<"ï¿½ï¿½ï¿½ï¿½END OF GETTING DETAILSï¿½ï¿½ï¿½ï¿½\n";
 	}
 	void displayresdet()
 	{
@@ -164,12 +164,12 @@ class canc
         std::cin >> pnr;
         std::cout << "Date of cancellation:";
         std::cin >> d >> m >> y;
-        std::cout << "………..END OF GETTING DETAILS………..\n";
+        std::cout << "ï¿½ï¿½ï¿½..END OF GETTING DETAILSï¿½ï¿½ï¿½..\n";
     }
     void displaycancdet()
     {
-        std::cout << "…………………………………….\n";
-        std::cout << "…………………………………….\n";
+        std::cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.\n";
+        std::cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.\n";
         std::cout << "Pnr no:" << pnr;
         std::cout << "\nTrain no:" << tno;
         std::cout << "\nTrain name:";
@@ -190,7 +190,7 @@ class canc
         std::cout << "\nDate of cancellation:" << d << "-" << m << "-" << y;
         std::cout << "\nYou can collect:" << amr << "rs" << endl;
         std::cout << "*****************************************\n";
-        std::cout << "………END OF CANCELLATION………….\n";
+        std::cout << "ï¿½ï¿½ï¿½END OF CANCELLATIONï¿½ï¿½ï¿½ï¿½.\n";
         std::cout << "*****************************************\n";
     }
 };
@@ -572,7 +572,7 @@ void can()
     int ch;
     do
     {
-        cout << "……………..CANCELLATION MENU………\n";
+        cout << "ï¿½ï¿½ï¿½ï¿½ï¿½..CANCELLATION MENUï¿½ï¿½ï¿½\n";
         cout << "1.Cancel\n2.Return to the main menu\n";
         cout << "Enter your choice:";
         cin >> ch;
@@ -678,5 +678,6 @@ void manage()
 				break;
 			}
 		}while(ch<=3);
+cout<<"end";
 }
 
